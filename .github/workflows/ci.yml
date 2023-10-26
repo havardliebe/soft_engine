@@ -19,8 +19,5 @@ jobs:
       with:
         python-version: 3.9  
 
-    - name: Install dependencies
-      run: pip install -r requirements.txt  # Legg til avhengigheter hvis du har dem
-
     - name: Run tests
       run: pytest test_leap_year.py
